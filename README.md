@@ -4,6 +4,10 @@ Testing biobeaker models!
 
 # Installation
 
+I've tried to recreate this environment in biobeaker.yml - try `mamba env create -f biobeaker.yml`, but that one still needs the below biobeaker/oracular/sfasta/acc2tax installations
+
+From scratch installation:
+
 ```
 mamba create -n biobeaker "python<3.9" tensorflow-gpu==2.11.0 -y
 conda activate biobeaker
