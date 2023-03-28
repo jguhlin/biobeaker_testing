@@ -25,7 +25,7 @@ cd biobeaker-0.0.2
 cd ..
 pip install ./biobeaker-0.0.2
 
-pip install jupyterlab 'maturin[patchelf]' plotly pandas umap-learn fastaparser
+pip install jupyterlab 'maturin[patchelf]' plotly pandas umap-learn fastaparser pyarrow matplotlib
 
 
 biobeaker relies on a bunch of Rust-libraries called from within Python:
